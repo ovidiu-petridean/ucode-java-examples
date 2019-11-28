@@ -19,7 +19,7 @@ package org.ucode.lecture3;
 public class Homework6 {
 
     public static void main(String[] args) {
-        long firstNumber = 1232;
+        long firstNumber = -321;
 
         String firstNumberAsString = Long.toString(firstNumber);
 
@@ -27,7 +27,7 @@ public class Homework6 {
         boolean decreasing = false;
 
 
-        if (firstNumberAsString.length() == 1){
+        if (firstNumberAsString.length() < 2){
             System.out.println("use numbers that have more than 1 digit");
         } else {
             char firstDigit = firstNumberAsString.charAt(0);
