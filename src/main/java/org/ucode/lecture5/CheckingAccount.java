@@ -12,12 +12,16 @@ public class CheckingAccount {
         balance += amount;
     }
 
-    public void withdraw(double amount) throws InsufficientFundsException {
+    public void withdraw(double amount) throws InsufficientFundsException, InvalidAmountException {
         if(amount <= balance) {
             balance -= amount;
-        }else {
+        } else {
             double needs = amount - balance;
             throw new InsufficientFundsException(needs);
+        }
+
+        if (amount < 10 || amount > 10000){
+            throw new InvalidAmountException();
         }
     }
 

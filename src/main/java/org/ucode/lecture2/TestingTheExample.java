@@ -3,7 +3,14 @@ package org.ucode.lecture2;
 public class TestingTheExample {
 
     public static void main(String[] args) {
-        Person person1 = new Person("bob", 32);
+        Person person1 = new Person();
+//        try {
+            person1.setName("bob");
+            person1.setAge(-1);
+//        } catch (InvalidAgeException ex){
+//            System.out.println(ex.getMessage());
+//            ex.printStackTrace();
+//        }
         Person person2 = new Person("mihai", 60);
         Person person3 = new Person("alex", 60);
 //        Person person1 = new Person();
@@ -11,6 +18,8 @@ public class TestingTheExample {
 //        Person person2 = new Person();
 //        char bla = 'a';
 //        String bla2 = "";
+
+
 
         Person persons[] = new Person[10];
         persons[0] = new Person("bob", 32);
