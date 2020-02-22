@@ -9,5 +9,7 @@ public class AbstractDemoInherited {
         s.mailCheck();
         System.out.println("\n Call mailCheck using Employee reference--");
         e.mailCheck();
+
+
     }
 }
