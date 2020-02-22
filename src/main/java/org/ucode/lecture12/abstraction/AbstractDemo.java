@@ -8,5 +8,6 @@ public class AbstractDemo {
 //        System.out.println("\n Call mailCheck using Employee reference--");
 //        e.mailCheck();
 
+
     }
 }
