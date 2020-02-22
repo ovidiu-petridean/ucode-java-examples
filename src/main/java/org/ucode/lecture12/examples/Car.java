@@ -1,4 +1,4 @@
-package lesson12;
+package org.ucode.lecture12.examples;
 
 public class Car extends Vehicle {
     public void accelerate() {
