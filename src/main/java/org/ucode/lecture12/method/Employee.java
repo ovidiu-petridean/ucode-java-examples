@@ -12,6 +12,7 @@ public abstract class Employee {
         this.number = number;
     }
 
+
     public abstract double computePay();
 
     public void mailCheck() {
