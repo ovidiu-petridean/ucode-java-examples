@@ -12,4 +12,5 @@ public class Salary extends Employee {
         return salary/52;
     }
     // Remainder of class definition
+
 }
